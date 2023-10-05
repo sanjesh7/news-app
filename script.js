@@ -74,11 +74,11 @@ document.getElementById("change-color").addEventListener("click",()=>{
     document.querySelector("body").classList.toggle("dark");
     document.querySelector("nav").classList.toggle("dark");
     if(val==0){
-    document.getElementById("change-color").src="sun.png";
+    document.getElementById("change-color").src="images/sun.png";
     val=1;
     }
     else{
-        document.getElementById("change-color").src="darkmode1.png";
+        document.getElementById("change-color").src="images/darkmode1.png";
         val=0;
     }
 })
